@@ -37,11 +37,11 @@ staticserver0:
 
   # ==== how to run your application ====
   # (usually no changes needed for a static server)
-  #run:
+  run:
     # *optional* install dependencies that your
     # runtime service requires (will be cached)
-    # prepare:
-    #   - apt-get something
+    prepare:
+       - apt-get something
     #   - curl otherthing
 
     # *optional*: triggered before each start/restart
