@@ -41,8 +41,9 @@ staticserver0:
     # *optional* install dependencies that your
     # runtime service requires (will be cached)
     prepare:
-       - npm i
+       - echo "ahoj"
     # *optional*: triggered before each start/restart
     # of your application, to eg. clean cache
     # init:
     #  - rm -rf ./cache
+    start: npm start
