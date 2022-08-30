@@ -41,9 +41,7 @@ staticserver0:
     # *optional* install dependencies that your
     # runtime service requires (will be cached)
     prepare:
-       - apt-get something
-    #   - curl otherthing
-
+      - npm i
     # *optional*: triggered before each start/restart
     # of your application, to eg. clean cache
     # init:
